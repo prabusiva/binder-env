@@ -1,0 +1,18 @@
+# system files on binder
+.bashrc
+.bash_history
+.bash_logout
+.git-completion.bash
+.gitconfig
+.ipynb_checkpoints/
+.jupyter-server-log.txt
+.jupyter/
+.lesshst
+.local/
+.profile
+.wget-hsts
+.npm/
+.cache/
+.ipython/
+nvim*
+.conda/
