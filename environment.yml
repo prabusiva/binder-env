@@ -1,14 +1,5 @@
-name: python-env
+name: pypy-env
 channels:
   - conda-forge
 dependencies:
-  - python=3.12.5
-  - boto
-  - matplotlib
-  - numpy
-  - nvim
-  - pandas
-  - pre-commit
-  - s3fs
-  - scikit-learn
-  - seaborn
+  - mamba

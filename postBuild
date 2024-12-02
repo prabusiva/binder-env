@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+source activate
+set -eux
+conda config --set channel_priority strict
+conda create -n pypy pypy -y
+conda activate pypy
+time conda env update --prefix ${CONDA_DIR} --file environment-pypy.yml
+time conda clean -yaf
+pypy3 -m pip install ipykernel
+pypy3 -m ipykernel install --user --name pypy3 --display-name "PyPy3"
+jupyter labextension enable jupyterlab_vpython

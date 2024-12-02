@@ -1,0 +1,13 @@
+name: pypy-env
+channels:
+  - conda-forge
+dependencies:
+  - boto
+  - matplotlib
+  - numpy
+  - nvim
+  - pandas
+  - pre-commit
+  - s3fs
+  - scikit-learn
+  - seaborn
