@@ -4,11 +4,15 @@ channels:
 dependencies:
   - python=3.12.5
   - boto
+  - beautifulsoup4
+  - lxml
   - matplotlib
   - numpy
   - nvim
   - pandas
+  - parallel
   - pre-commit
+  - requests
   - s3fs
   - scikit-learn
   - seaborn
