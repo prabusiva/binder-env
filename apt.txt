@@ -1,0 +1,5 @@
+#fontforge
+#python3-fontforge
+curl
+fd-find
+ripgrep
