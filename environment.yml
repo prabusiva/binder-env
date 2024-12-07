@@ -17,3 +17,7 @@ dependencies:
   - s3fs
   - scikit-learn
   - seaborn
+  - python-build
+  - jupyter-server-proxy
+  - code-server
+  - go

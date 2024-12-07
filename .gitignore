@@ -16,3 +16,6 @@
 .ipython/
 nvim*
 .conda/
+*.egg-info
+.config/
+__pycache__
