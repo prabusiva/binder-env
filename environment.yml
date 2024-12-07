@@ -5,6 +5,7 @@ dependencies:
   - python=3.12.5
   - boto
   - beautifulsoup4
+  - git
   - lxml
   - matplotlib
   - numpy
